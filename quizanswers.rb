@@ -95,10 +95,7 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # p users["Erik"][:home_town].replace("Edinburgh")
 
 
-# p users = { "Fluffy" => :pets }
-
-
-# p users["Erik"][:pets].store(:dog => "Fluffy")
+# p users["Erik"][:pets].merge("Fluffy" => :dog)
 
 
 # CCCCCCCCCCCCCCC
